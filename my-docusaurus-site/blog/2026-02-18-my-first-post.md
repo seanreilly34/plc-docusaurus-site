@@ -1,7 +1,7 @@
  ---
-slug: my-first-post
+slug: plc-docusaurus-site
 title: My First Blog Post
-authors: [sean-reilly]
+authors: [seanreilly34]
 tags: [introduction, hello]
 ---
 
