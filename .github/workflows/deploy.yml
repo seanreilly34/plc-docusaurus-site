@@ -20,15 +20,15 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: my-docusaurus-site.github.io
+          cache-dependency-path: plc-docusaurus-site.github.io
       
       - name: Install dependencies
         run: npm ci
-        working-directory: my-docusaurus-site.github.io
+        working-directory: plc-docusaurus-site.github.io
       
       - name: Build website
         run: npm run build
-        working-directory: my-docusaurus-site.github.io
+        working-directory: plc-docusaurus-site.github.io
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
